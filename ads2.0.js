@@ -14,8 +14,8 @@ if(!window['adManager']) {
         'finish': 0,
         'wacth': 0,
         'stop': 5000,
-        'url': 'https://ablok.store' + '/ads/' + 'ad' + 's.' + 'php',
-        'staticUrl': 'https://ablok.store' + '/ads/',
+        'url': 'https://xxx.com' + '/ads/' + 'ad' + 's.' + 'php',
+        'staticUrl': 'https://xxx.com' + '/ads/',
         'videoId': null
     }
     var XMLHttpFactories = [
