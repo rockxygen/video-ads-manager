@@ -1,0 +1,91 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+.test {
+    width: 900px;
+    height: 600px;
+    background: #efefef;
+}
+
+#adsblock {
+    top: 0;
+    left: 0;
+    position: absolute;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+#adsblock:first-child {
+    width: 100%;
+    height: 100%;
+}
+
+div.close-btn {
+    width: 100px;
+    height: 20px;
+    bottom: 20px;
+    right: 20px;
+    background: #fff;
+    z-index: 999;
+    position: absolute;
+    padding: 10px;
+    cursor: pointer;
+    text-align: center;
+    display: block;
+    transition: 300ms all;
+    border: 1px solid #000;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+div.close-btn:hover {
+    border: 1px solid #999;
+}
+
+button.jump-ads {
+    width: 150px;
+    background: transparent;
+    background-color: rgba(0, 0, 0, .8);
+    z-index: 999;
+    position: absolute;
+    left:0;
+    bottom: 35px;
+    padding: 10px;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    outline: none;
+    cursor: pointer;
+}
+
+button.close-ads {
+    width: 150px;
+    background: transparent;
+    background-color: rgba(0, 0, 0, .8);
+    z-index: 999;
+    position: absolute;
+    right:0;
+    bottom: 35px;
+    padding: 10px;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    outline: none;
+    cursor: pointer;
+}
+
+div.overlay {
+    background: transparent;
+    background-color: rgba(255, 255, 255, 0);
+    z-index: 996;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
